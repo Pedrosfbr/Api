@@ -30,6 +30,7 @@ namespace Repository.Config
                 .IsRequired();
             bu.Property(x => x.Cidade)
                 .HasColumnName("Cidade");
+        
         }
     }
 }
