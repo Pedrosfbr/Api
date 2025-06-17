@@ -13,6 +13,7 @@ namespace Repository.Config
     {
         public void Configure(EntityTypeBuilder<Location> bu)
         {
+        
             bu.ToTable("Location");
             bu.HasKey(x => x.Id);
             bu.Property(x => x.Id)
